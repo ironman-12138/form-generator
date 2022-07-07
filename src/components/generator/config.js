@@ -641,5 +641,18 @@ export const layoutComponents = [
     type: 'default',
     justify: 'start',
     align: 'top'
+  },
+  {
+    __config__: {
+      label: '分页[开发中]',
+      showLabel: false,
+      changeTag: true,
+      labelWidth: null,
+      tag: 'el-pagination',
+      tagIcon: 'pagination',
+      span: 24,
+      layout: 'colFormItem',
+      document: 'https://element.eleme.cn/#/zh-CN/component/pagination'
+    }
   }
 ]
